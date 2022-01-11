@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FicoApp</string>
+    <string name="channel_name">novità</string>
+    <string name="channel_description">prova</string>
+</resources>

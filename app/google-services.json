@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "786649246881",
+    "project_id": "ficoapp-9cb61",
+    "storage_bucket": "ficoapp-9cb61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786649246881:android:2a1ca6bdca02f821fb54e0",
+        "android_client_info": {
+          "package_name": "com.example.ficoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786649246881-n85nu6409s4j04ni9n52kd9npk1jp3qf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZreS4ma0CXJiDy1Q9mLOB2VIJ987Tv98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786649246881-n85nu6409s4j04ni9n52kd9npk1jp3qf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
