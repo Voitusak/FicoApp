@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ficoapp">
+    package="com.voitu.ficoapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,17 +12,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FicoApp">
         <activity
-            android:name=".FinalActivity"
+            android:name=".activities.AddRankActivity"
+            android:exported="false"
+            android:label="@string/title_activity_add_rank"
+            android:theme="@style/Theme.FicoApp.NoActionBar" />
+        <activity
+            android:name=".activities.LoginActivity"
             android:configChanges="orientation"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PrivateArea"
+            android:name=".activities.FinalActivity"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activities.RegisterActivity"
             android:configChanges="orientation"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.UserDetails"
             android:configChanges="orientation"
             android:exported="true"
             android:screenOrientation="portrait">
@@ -36,10 +46,6 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-
-        <activity
-            android:name=".LoginActivity"
-            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

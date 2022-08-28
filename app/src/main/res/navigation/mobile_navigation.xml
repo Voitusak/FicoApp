@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_main">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.voitu.ficoapp.activities.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.voitu.ficoapp.activities.ui.ranking.RankingFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_ranking" />
+
+    <fragment
+        android:id="@+id/navigation_main"
+        android:name="com.voitu.ficoapp.activities.ui.main.MainFragment"
+        android:label="@string/title_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.voitu.ficoapp.activities.ui.account.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/leaderboardFragment"
+        android:name="com.voitu.ficoapp.activities.ui.leaderboard.LeaderboardFragment"
+        android:label="fragment_leaderboard"
+        tools:layout="@layout/fragment_leaderboard" />
+</navigation>
